@@ -40,12 +40,12 @@
 - Classification: contact/trust.
 - Placement: mandatory bottom local SEO/contact block.
 
-### `assets/bing-thumb.jpg`
+### Bing thumbnail candidate
 - Source: Bing Images result for business query.
 - Visible subject: anatomical lower-leg bone illustration.
 - Relevance: unrelated to dentistry/business.
 - Classification: reject.
-- Decision: not used.
+- Decision: not saved in final assets and not used.
 
 ## Staff/profile verification
 - Named person: д-р Елена Колева.
