@@ -44,7 +44,8 @@
 - PASS sticky mobile call CTA present.
 
 ## Gate 9 — final live QA
-- Pending until deploy.
+- PASS GitHub Pages returned HTTP 200.
+- PASS live HTML contains business name, testimonial phrase, phone CTA, map/contact block, Dentist schema, canonical, and OG tags.
 
 ## Notes / blockers
 - Public staff/clinic photos were not accessible from autonomous sources. Facebook surfaced by Zlatna Firma hit fetch/login wall; old business.site returned 404. Page intentionally avoids fake portraits or stock clinic photos.
