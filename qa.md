@@ -40,6 +40,7 @@
 ## Gate 8 — responsive visual QA
 - PASS desktop and mobile screenshots generated locally with Playwright: `artifacts/ek-dent-elena-koleva-desktop.png`, `artifacts/ek-dent-elena-koleva-mobile.png`.
 - PASS map-specific viewport screenshots generated after scrolling to iframe: `artifacts/ek-dent-elena-koleva-map-section.png`, `artifacts/ek-dent-elena-koleva-map-section-mobile.png`.
+- 2026-05-30 correction: replaced CID-based lazy map iframe with eager coordinate-based embed (`42.6424562,23.3700035`) after mobile full-page QA showed a blank map area before scroll.
 - PASS footer icon row uses consistent SVG icon buttons.
 - PASS sticky mobile call CTA present.
 
@@ -48,5 +49,6 @@
 - PASS live HTML contains business name, testimonial phrase, phone CTA, map/contact block, Dentist schema, canonical, and OG tags.
 
 ## Notes / blockers
-- Public staff/clinic photos were not accessible from autonomous sources. Facebook surfaced by Zlatna Firma hit fetch/login wall; old business.site returned 404. Page intentionally avoids fake portraits or stock clinic photos.
-- Sheet was not updated by instruction.
+- 2026-05-30 correction: Dean supplied the correct Facebook page: https://www.facebook.com/p/ЕК-Дент-100063898398260/?locale=bg_BG . The site/schema/footer now use this page instead of the previously surfaced wrong Facebook id.
+- Public staff/clinic photos were not accessible from autonomous sources. Correct Facebook page fetch/mobile/mbasic routes hit logged-out or unsupported-browser walls and did not expose usable images; old business.site returned 404. Page intentionally avoids fake portraits or stock clinic photos.
+- Sheet row 21 website/Facebook field updated after Dean supplied the correct page.

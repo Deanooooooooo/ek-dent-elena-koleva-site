@@ -14,7 +14,7 @@
 - Titul mirror: https://titul.bg/3228267660040785342/ — address, phone, working hours, features, public Google review excerpts.
 - Oink profile: https://www.oink.bg/biz/ek_dent_d_r_elena — address, coordinates, category, Maps review link/place id.
 - Zlatna Firma profile: https://www.zlatnafirma.eu/company/ek-dent-d-r-elena-koleva-869254 — selected reviews, Facebook profile id surfaced by page.
-- Facebook profile surfaced: https://www.facebook.com/profile.php?id=100088451929992 — web fetch/browserless route hit Facebook error/login wall; no usable images extracted.
+- Facebook page supplied by Dean and verified as the intended public page: https://www.facebook.com/p/ЕК-Дент-100063898398260/?locale=bg_BG . Fetch/mobile/mbasic routes hit logged-out/unsupported walls and did not expose usable clinic/staff images, but the page URL is now used as the canonical Facebook profile link.
 - Google/Bing image searches for business/name/address — no usable real clinic/team photos found. One Bing thumbnail was unrelated anatomical artwork and rejected.
 - Old Google Business Site URL surfaced by mirrors: https://dentist-4642.business.site/ — currently returns 404 in fetch, no usable assets.
 
