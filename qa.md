@@ -52,3 +52,9 @@
 - 2026-05-30 correction: Dean supplied the correct Facebook page: https://www.facebook.com/p/ЕК-Дент-100063898398260/?locale=bg_BG . The site/schema/footer now use this page instead of the previously surfaced wrong Facebook id.
 - Public staff/clinic photos were not accessible from autonomous sources. Correct Facebook page fetch/mobile/mbasic routes hit logged-out or unsupported-browser walls and did not expose usable images; old business.site returned 404. Page intentionally avoids fake portraits or stock clinic photos.
 - Sheet row 21 website/Facebook field updated after Dean supplied the correct page.
+
+## 2026-05-30 Facebook image correction
+- PASS: Correct Facebook page rendered publicly in browser: `ЕК Дент | Sofia`, 857 followers, address and phone matched row/sheet.
+- PASS: Downloaded and vetted real Facebook images from the correct page.
+- PASS: Added real clinic/interior, action, and staff/profile images to the site.
+- PASS: Rejected generic Facebook placeholder and weak/deduplicated graphics.

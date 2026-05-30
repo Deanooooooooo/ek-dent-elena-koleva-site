@@ -52,3 +52,16 @@
 - Search routes: business/name/address web search, Google/Bing image search, mirrors, Facebook profile surfaced by Zlatna Firma, old business.site.
 - Result: no verified public portrait was accessible without login/cookie wall; no staff image used.
 - Site approach: no fake/stock portrait; copy remains doctor-led but uses text-only trust cards.
+
+## 2026-05-30 Facebook image extraction correction
+Dean supplied the correct Facebook page and asked to use its images. Public browser extraction succeeded from `https://www.facebook.com/p/ЕК-Дент-100063898398260/?locale=bg_BG` and found page details plus photos.
+
+Selected images:
+- `assets/facebook/ekdent-fb-05.jpg` — real dental operatory/interior from EK Dent Facebook. Best trust asset. Used once in the hero contact card.
+- `assets/facebook/ekdent-fb-02.jpg` — Facebook profile/staff image for д-р Елена Колева. Lower resolution but verified to come from the correct page; used once as a small trust image in the clinic section.
+- `assets/facebook/ekdent-fb-04.jpg` — real in-clinic/treatment action image from EK Dent Facebook. Kept as source evidence/backup but not used visibly after QA because it felt too similar to the operatory shot when placed on the page.
+
+Rejected images:
+- `graph_album.jpg`, `graph_large.jpg`, `graph_normal.jpg` — generic Facebook placeholder silhouette, not a real clinic/staff image.
+- `ekdent-fb-01.jpg` — blurred/washed cover/banner; too weak for page placement.
+- Business-card/contact graphics and duplicate crops — not used as visible page photos.
